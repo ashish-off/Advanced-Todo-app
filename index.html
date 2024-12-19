@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advance Todo App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="stats-container">
+
+      <div class="details">
+        <h1>To-dos</h1>
+        <p>Your Progress...</p>
+        <div id="progressBar">
+          <div id="progress"></div>
+        </div>
+      </div>
+
+      <div class="stats-numbers">
+        <p id="numbers">2 / 3</p>
+      </div>
+
+    </div>
+
+    <form action="">
+      <input type="text" placeholder="Write your task" id="taskInput">
+      <button type="submit" id="newTask">+</button>
+    </form>
+
+    <ul id="task-list">
+      <li>
+
+        <div class="taskItem">
+          <div class="task">
+            <input type="checkbox" class="checkbox" />
+            <p>Finish This Project</p>
+          </div>
+
+          <div class="icons">
+            <img src="./img/edit.png">
+            <img src="./img/bin.png">
+          </div>
+        </div>
+
+      </li>
+    </ul>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
