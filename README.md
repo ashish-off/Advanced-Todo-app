@@ -45,6 +45,6 @@ This is an advanced Todo application that allows users to add, edit, delete, and
 
 ## Demo
 
-
+![Screenshot 2024-12-20 014000](https://github.com/user-attachments/assets/9fdf1b5c-31d6-4a10-a965-6ed5f2ba42f6)
 
 
